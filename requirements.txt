@@ -1,0 +1,7 @@
+streamlit
+langchain
+pypdf
+qdrant-client
+sentence-transformers
+llama-index
+ollama
