@@ -58,9 +58,15 @@ docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 ```
 Ensure Qdrant is running before proceeding.
 
-### **5️⃣ Run the Application**
+### **5️⃣ Run the Ollama server**
 ```sh
-streamlit run myapp.py
+ollama run llama3.2:3b
+```
+Ensure llama3.2:3b is running before proceeding.
+
+### ** Run the Application**
+```sh
+Streamlit run Myapp.py
 ```
 This will launch the Streamlit UI where you can upload PDFs and interact with the chatbot.
 
