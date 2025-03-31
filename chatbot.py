@@ -16,7 +16,7 @@ class ChatbotManager:
         model_name: str = "BAAI/bge-small-en",
         device: str = "cpu",
         encode_kwargs: dict = {"normalize_embeddings": True},
-        llm_model: str = "deepseek-r1:1.5b",
+        llm_model: str = "llama3.2:3b",
         llm_temperature: float = 0.7,
         qdrant_url: str = "http://10.10.20.141:8501",
         collection_name: str = "vector_db",
