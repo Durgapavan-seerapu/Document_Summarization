@@ -122,7 +122,7 @@ elif choice == "🤖 Chatbot":
                             model_name="BAAI/bge-small-en",
                             device="cpu",
                             encode_kwargs={"normalize_embeddings": True},
-                            llm_model="deepseek-r1:1.5b",
+                            llm_model="llama3.2:3b",
                             llm_temperature=0.7,
                             qdrant_url="http://localhost:6333",
                             collection_name="vector_db"
